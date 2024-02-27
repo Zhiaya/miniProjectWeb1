@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MyMiniProject</title>
+    <link rel="stylesheet" href="./index.css" />
+    <link rel="stylesheet" href="../css/style.css" />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body class="bg-pink-100">
+    <!-- Header -->
+    <header class="bg-pink-200">
+      <!-- Navigations -->
+      <nav>
+        <div
+          class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4"
+        >
+          <a
+            href="https://flowbite.com/"
+            class="flex items-center space-x-3 rtl:space-x-reverse"
+          >
+            <img src="../image/logoPinkCake.png" class="h-20" alt="Logo" />
+          </a>
+          <!-- Botton -->
+          <div class="flex md:order-2">
+            <button
+              type="button"
+              data-collapse-toggle="navbar-search"
+              aria-controls="navbar-search"
+              aria-expanded="false"
+              class="md:hidden text-pink-700 rounded-lg text-sm"
+            >
+              <svg
+                class="w-5 h-5"
+                aria-hidden="true"
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 20 20"
+              >
+                <path
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="m19 19-4-4m0-7A7 7 0 1 1 1 8a7 7 0 0 1 14 0Z"
+                />
+              </svg>
+              <span class="sr-only">Search</span>
+            </button>
+            <div class="relative hidden md:block">
+              <div
+                class="absolute inset-y-0 start-0 flex items-center ps-3 pointer-events-none"
+              >
+                <svg
+                  class="w-4 h-4 text-pink-700"
+                  aria-hidden="true"
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 20 20"
+                >
+                  <path
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="m19 19-4-4m0-7A7 7 0 1 1 1 8a7 7 0 0 1 14 0Z"
+                  />
+                </svg>
+                <span class="sr-only">Search icon</span>
+              </div>
+              <input
+                type="text"
+                id="search-navbar"
+                class="block w-full p-2 ps-10 text-sm text-pink-700 border border-pink-700 rounded-lg bg-transparent  dark:placeholder-pink-700 "
+                placeholder="Search..."
+              />
+            </div>
+            <button
+              data-collapse-toggle="navbar-search"
+              type="button"
+              class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-pink-700 rounded-lg md:hidden"
+              aria-controls="navbar-search"
+              aria-expanded="false"
+            >
+              <span class="sr-only">Open main menu</span>
+              <svg
+                class="w-5 h-5"
+                aria-hidden="true"
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 17 14"
+              >
+                <path
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M1 1h15M1 7h15M1 13h15"
+                />
+              </svg>
+            </button>
+          </div>
+          <!-- search navbar -->
+          <div
+            class="items-center justify-between hidden w-full md:flex md:w-auto md:order-1"
+            id="navbar-search"
+          >
+            <div class="relative mt-3 md:hidden">
+              <div
+                class="absolute inset-y-0 start-0 flex items-center ps-3 pointer-events-none"
+              >
+                <svg
+                  class="w-4 h-4 text-pink-400"
+                  aria-hidden="true"
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 20 20"
+                >
+                  <path
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="m19 19-4-4m0-7A7 7 0 1 1 1 8a7 7 0 0 1 14 0Z"
+                  />
+                </svg>
+              </div>
+              <input
+                type="text"
+                id="search-navbar"
+                class="block w-full p-2 ps-10 text-sm text-pink-700 "
+                placeholder="Search..."
+              />
+            </div>
+            <!-- menu nav -->
+            <ul
+              class="flex flex-col p-4 md:p-0 mt-4 font-medium border border-transparent rounded-lg bg-transparent md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0 md:bg-transparent dark:bg-transparent md:dark:bg-transparent dark:border-transparent"
+            >
+              <li>
+                <a href="index.html" class="text-pink-700">Home</a>
+              </li>
+              <li>
+                <a href="AboutUs.html" class="text-pink-700">AboutUs</a>
+              </li>
+              <li>
+                <a href="Detail.html" class="text-pink-700">Detail</a>
+              </li>
+              <li>
+                <a href="Catalog.html" class="text-pink-700">Catalog</a>
+              </li>
+              <li>
+                <a href="Menu.html" class="text-pink-700">Menu</a>
+              </li>
+              <li>
+                <a href="Contact.html" class="text-pink-700">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <!-- header background -->
+      <section class="flex justify-center items-center">
+        <div class="grid sm:grid-cols-1 lg:grid-cols-2 gap-8">
+          <div class="flex items-center">
+            <div>
+              <h1 class="text-8xl text-pink-700">ZHIA Bakery</h1>
+              <p class="flex justify-end text-lg text-pink-700 my-6">
+                Welcome to a place that make your day full of happiness.
+              </p>
+            </div>
+          </div>
+          <div
+            class="headerImg bg-cover bg-center h-screen"
+            style="background-image: url(../image/PinkCake.jpg)"
+          ></div>
+      </section>
+    </header>
+    <!-- Main -->
+    <!-- Detail -->
+    <section class="flex justify-center">
+      <div class="detail grid sm:grid-cols-1 lg:grid-cols-2 gap-4 w-2/3">
+        <div class="detailImg">
+          <img
+            class="rounded-full w-1/2 my-8"
+            src="../image/PinkCake7.jpg"
+            alt=""
+          />
+        </div>
+        <div class="flex justify-center items-center">
+          <div>
+            <h1 class="text-4xl text-pink-700">Pink Delight Cake</h1>
+            <p class="text-lg text-pink-400">
+              Our Pink Delight Cake is a romantic delight, combining a light
+              sponge cake with a creamy filling, all wrapped in a delicate pink
+              frosting. The cake's soft texture and sweet flavor are
+              complemented by a delicate pink frosting that's both tender and
+              sweet, making it a perfect choice
+            </p>
+          </div>
+        </div>
+        <div class="flex justify-center items-center">
+          <div>
+            <h1 class="text-4xl text-pink-700">Pink Passion Cake</h1>
+            <p class="text-lg text-pink-400">
+              The Pink Passion Cake is a bold statement, featuring a robust
+              chocolate ganache base and a generous layer of rich, creamy
+              frosting, topped with a dusting of pink sugar. The intense
+              chocolate flavor is balanced by the smooth frosting, creating a
+              cake that's both decadent and dramatic.
+            </p>
+          </div>
+        </div>
+        <div class="detailImg flex justify-end">
+          <img class="w-1/2" src="../image/PinkCake6.jpg" alt="cake" />
+        </div>
+
+        <div class="detailImg">
+          <img
+            class="rounded-full w-1/2"
+            src="../image/PinkCake5.jpg"
+            alt="cake"
+          />
+        </div>
+        <div class="flex justify-center items-center">
+          <div>
+            <h1 class="text-4xl text-pink-700">Pink Velvet Cake</h1>
+            <p class="text-lg text-pink-400">
+              our Pink Velvet Cake offers a soft and silky texture that's pure
+              indulgence. Made with a smooth, rich velvet cake and a smooth,
+              creamy buttercream frosting, it's finished with a dusting of pink
+              sugar that gives it a gentle pink hue. The cake's velvety texture
+              and rich flavor are a sensory experience that's sure to satisfy
+              even the most discerning palate.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Footer -->
+    <footer class=" bg-pink-200">
+      <div class="mx-auto w-full max-w-screen-xl">
+        <div class="grid grid-cols-2 gap-8 px-4 py-6 lg:py-8 md:grid-cols-4">
+          <div>
+            <h2
+              class="mb-6 text-lg font-semibold text-pink-700 uppercase"
+            >
+              About Us
+            </h2>
+            <ul class="text-pink-400 font-medium">
+              <li class="mb-4">
+                <a href="#" class="hover:underline">Our Company</a>
+              </li>
+              <li class="mb-4">
+                <a href="#" class="hover:underline">Our Cake</a>
+              </li>
+              <li class="mb-4">
+                <a href="#" class="hover:underline">Contact Us</a>
+              </li>
+              <li class="mb-4">
+                <a href="#" class="hover:underline">Blog</a>
+              </li>
+            </ul>
+          </div>
+          <div>
+            <h2
+              class="mb-6 text-lg font-semibold text-pink-700 uppercase"
+            >
+              Help center
+            </h2>
+            <ul class="text-pink-400 font-medium">
+              <li class="mb-4">
+                <a href="#" class="hover:underline">Discord Server</a>
+              </li>
+              <li class="mb-4">
+                <a href="#" class="hover:underline">Twitter</a>
+              </li>
+              <li class="mb-4">
+                <a href="#" class="hover:underline">Facebook</a>
+              </li>
+            </ul>
+          </div>
+          <div>
+            <h2
+              class="mb-6 text-lg font-semibold text-pink-700 uppercase "
+            >
+              Legal
+            </h2>
+            <ul class="text-pink-400 font-medium">
+              <li class="mb-4">
+                <a href="#" class="hover:underline">Privacy Policy</a>
+              </li>
+              <li class="mb-4">
+                <a href="#" class="hover:underline">Licensing</a>
+              </li>
+              <li class="mb-4">
+                <a href="#" class="hover:underline">Terms &amp; Conditions</a>
+              </li>
+            </ul>
+          </div>
+          <div>
+            <h2
+              class="mb-6 text-lg font-semibold text-pink-700 uppercase "
+            >
+              Social impact
+            </h2>
+            <ul class="text-pink-400 font-medium">
+              <li class="mb-4">
+                <a href="#" class="hover:underline">People</a>
+              </li>
+              <li class="mb-4">
+                <a href="#" class="hover:underline">Planet</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.js"></script>
+</html>
